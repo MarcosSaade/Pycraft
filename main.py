@@ -1,3 +1,10 @@
+"""
+#TODO
+-Expansion vertical
+-mas tipos de bloques
+-volar?
+"""
+
 import pygame
 import random
 from helper import *
@@ -60,7 +67,6 @@ class Player:
         coor_x = p_board_x(self.pos, self.img_idx)  # img_idx 0 right, 1 left
 
         if main.world.world[coor_x[0] + 1 + offset][coor_x[1]] == 0:  # if body free
-            print('head free right')
             self.can_right = True
         else:
             if self.img_idx == 0:
@@ -100,8 +106,8 @@ class World:
     def generate_column(self):
         column = []
 
-        # floor = random.choices(([1, 0, 0, 0], [1, 1, 0, 0], [1, 1, 1, 0], [1, 1, 1, 1]), weights=[8, 4, 2, 1])
-        floor = [1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0]
+        floor = random.choices(([1, 0, 0, 0], [1, 1, 0, 0], [1, 1, 1, 0], [1, 1, 1, 1]), weights=[8, 4, 2, 1])
+        # floor = [1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0]
         column.append(floor[0][0])
         column.append(floor[0][1])
         column.append(floor[0][2])
