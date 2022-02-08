@@ -1,10 +1,3 @@
-"""
-#TODO
--Expansion vertical
--mas tipos de bloques
--volar?
-"""
-
 import pygame
 import random
 from helper import *
