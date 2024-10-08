@@ -4,7 +4,7 @@
 
 ## Overview
 
-Welcome to my 2D Minecraft-like video game developed in Python using the Pygame library! This project was created to explore game development concepts and showcase my skills in programming, game design, and problem-solving.
+Welcome to my 2D Minecraft-like video game developed in Python using the Pygame library!
 
 ## Features
 
@@ -12,12 +12,6 @@ Welcome to my 2D Minecraft-like video game developed in Python using the Pygame 
 - **Player Movement**: Intuitive controls for character movement and interaction.
 - **Open world**: A procedural, infinite, consistent world generated as the user moves around.
 - **Dynamic Environment**: A colorful sky and ocean background that adds depth to the game world.
-
-## Technologies Used
-
-- **Python**: The primary programming language used for development.
-- **Pygame**: A set of Python modules designed for writing video games, providing functionalities like graphics and sound.
-- **Git**: Version control to manage changes to the codebase.
 
 ## Getting Started
 
