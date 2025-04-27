@@ -1,26 +1,28 @@
-# Pycraft - A Minecraft-like 2D Video Game
+# Pycraft — A 2D Minecraft-Inspired Game
 
 ![pycraft](https://github.com/user-attachments/assets/95125351-6839-4d92-8c58-ff66671c28da)
 
 ## Overview
 
-Welcome to my 2D Minecraft-like video game developed in Python using the Pygame library!
+**Pycraft** is a lightweight 2D game built in Python using Pygame, inspired by Minecraft's creative mode.  
+Explore an infinite procedural world, build structures, and interact with a dynamic environment!
+I built it while in High School as a side project and it was tons of fun and a great learning experience in game development, procedural generation, and working with graphics libraries like Pygame.
 
 ## Features
 
-- **2D Block Building**: Players can place and remove blocks, similar to Minecraft's creative mode.
-- **Player Movement**: Intuitive controls for character movement and interaction.
-- **Open world**: A procedural, infinite, consistent world generated as the user moves around.
-- **Dynamic Environment**: A colorful sky and ocean background that adds depth to the game world.
+- **2D Block Building**: Place and remove blocks freely, just like Minecraft's creative mode.
+- **Player Movement**: Smooth and intuitive controls for navigating the world.
+- **Procedural Open World**: The environment expands infinitely as the player explores new regions.
+- **Dynamic Background**: Colorful sky and ocean backgrounds enhance the visual experience.
 
 ## Getting Started
 
 ### Prerequisites
 
-To run this game, you'll need:
+Make sure you have:
 
-- Python 3.x installed on your computer.
-- Pygame library. You can install it via pip:
+- Python 3.x installed
+- Pygame library (install with:)
 
 ```bash
 pip install pygame
@@ -46,27 +48,19 @@ cd pycraft
 python main.py
 ```
 
-## Gameplay Instructions
+## Controls
 
-- **Movement**: Use the arrow keys to move your character.
-- **Building**: Click on blocks to place or remove them in the game world.
-- **Explore**: Navigate through the environment and experiment with building.
+- **Move**: Arrow keys (`← ↑ → ↓`)
+- **Build/Remove Blocks**: Mouse click
+- **Explore**: Move around and expand the world!
 
 ## Future Improvements
 
-- Add more block types and crafting mechanics.
-- Implement multiplayer functionality for collaborative building.
-- Enhance graphics and animations for a more polished experience.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
+- Add new block types and crafting mechanics
+- Implement multiplayer features
+- Improve animations and visual polish
 
 ## Contact
 
-Feel free to reach out for any questions or feedback:
-marcossr2626@gmail.com
-
-
-## Copyright
-Image credits due to their respective authors.
+For questions or feedback, feel free to reach out:  
+📧 marcossr2626@gmail.com
