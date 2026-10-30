@@ -63,4 +63,4 @@ python main.py
 ## Contact
 
 For questions or feedback, feel free to reach out:  
-📧 marcossr2626@gmail.com
+marcossr2626@gmail.com
