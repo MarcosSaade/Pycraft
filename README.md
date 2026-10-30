@@ -1,66 +1,38 @@
-# Pycraft — A 2D Minecraft-Inspired Game
+# Pycraft
 
-![pycraft](https://github.com/user-attachments/assets/95125351-6839-4d92-8c58-ff66671c28da)
+A 2D sandbox game in Python and Pygame inspired by Minecraft's creative mode: walk and jump across an endless world, and place or remove blocks wherever you like. I wrote it in high school as a side project to learn game loops, simple physics and procedural generation.
 
-## Overview
+![Pycraft](https://github.com/user-attachments/assets/95125351-6839-4d92-8c58-ff66671c28da)
 
-**Pycraft** is a lightweight 2D game built in Python using Pygame, inspired by Minecraft's creative mode.  
-Explore an infinite procedural world, build structures, and interact with a dynamic environment!
-I built it while in High School as a side project and it was tons of fun and a great learning experience in game development, procedural generation, and working with graphics libraries like Pygame.
+## How it works
 
-## Features
+- **Endless world.** The world is generated in chunks of 16 columns as the player walks past either edge. Each column gets a random terrain height (taller columns are rarer), and chunks that have been visited are kept, so blocks you placed are still there when you come back.
+- **Physics.** Gravity, jumping and collision with blocks, including no jumping when a block is directly overhead.
+- **Building.** Click a block to remove it or an empty space to place one, with the hovered cell highlighted.
 
-- **2D Block Building**: Place and remove blocks freely, just like Minecraft's creative mode.
-- **Player Movement**: Smooth and intuitive controls for navigating the world.
-- **Procedural Open World**: The environment expands infinitely as the player explores new regions.
-- **Dynamic Background**: Colorful sky and ocean backgrounds enhance the visual experience.
-
-## Getting Started
-
-### Prerequisites
-
-Make sure you have:
-
-- Python 3.x installed
-- Pygame library (install with:)
+## Running it
 
 ```bash
+git clone https://github.com/MarcosSaade/Pycraft.git
+cd Pycraft
 pip install pygame
-```
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/MarcosSaade/pycraft.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd pycraft
-```
-
-3. Run the game:
-
-```bash
 python main.py
 ```
 
 ## Controls
 
-- **Move**: Arrow keys (`← ↑ → ↓`)
-- **Build/Remove Blocks**: Mouse click
-- **Explore**: Move around and expand the world!
+| Action | Keys |
+|---|---|
+| Move | Left / Right arrows, or A / D |
+| Jump | Up arrow, W or Space |
+| Place or remove a block | Mouse click |
 
-## Future Improvements
+## Code
 
-- Add new block types and crafting mechanics
-- Implement multiplayer features
-- Improve animations and visual polish
+- `main.py`: game loop, player physics, world generation and chunk management.
+- `helper.py`: helper functions.
+- `data/img/`: sprites and textures.
 
-## Contact
+## Ideas for later
 
-For questions or feedback, feel free to reach out:  
-marcossr2626@gmail.com
+More block types and crafting, smoother terrain generation (for example Perlin noise instead of independent random columns), and saving worlds to disk.
